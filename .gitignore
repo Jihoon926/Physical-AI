@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+
+# Generated logs and experiment outputs
+runs/
+logs/
+*.log
+*.err
+
+# Large generated datasets
+train/
+valid/
+open_env/
+random_envs*/
+random_trajectories*/
+dagger_failures/
+
+# Model checkpoints: keep the selected release checkpoint only.
+*.pth
+!rnn_transition_random800_dagger80_best.pth
+
+# Normalization stats: keep the selected release stats only.
+*.npz
+!rnn_transition_random800_dagger80_stats.npz
+!sample_env/*.npz
+
+# Local evaluation outputs
+sample_eval.json
+

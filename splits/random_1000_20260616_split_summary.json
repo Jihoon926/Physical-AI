@@ -1,0 +1,15 @@
+{
+  "source_dir": "random_trajectories_1000_20260615_232704",
+  "seed": 20260616,
+  "counts": {
+    "train800": 800,
+    "valid100": 100,
+    "heldout100": 100
+  },
+  "manifests": {
+    "train800": "splits/random_1000_20260616_train800.txt",
+    "valid100": "splits/random_1000_20260616_valid100.txt",
+    "heldout100": "splits/random_1000_20260616_heldout100.txt"
+  },
+  "leakage_check": "train/valid/heldout are disjoint and cover all 1000 files"
+}

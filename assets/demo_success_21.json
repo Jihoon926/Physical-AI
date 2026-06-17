@@ -1,0 +1,78 @@
+{
+  "env_path": "open_env/21.npz",
+  "env_name": "21.npz",
+  "num_steps": 1137,
+  "success": true,
+  "final_distance": 0.056646943235978686,
+  "success_distance": 0.07400514864985205,
+  "final_block_pos": [
+    0.49641570423097847,
+    0.027353514360400618,
+    0.38104918549454175
+  ],
+  "target_pos": [
+    0.5401744269447721,
+    0.05527688108351579,
+    0.35837020943114917
+  ],
+  "final_waypoint_index": 7,
+  "final_waypoint_name": "retreat",
+  "transitions": [
+    {
+      "step": 270,
+      "from": 0,
+      "to": 1,
+      "name": "descend",
+      "source": "geometry",
+      "distance": 0.017945628521486026
+    },
+    {
+      "step": 371,
+      "from": 1,
+      "to": 2,
+      "name": "grasp",
+      "source": "geometry",
+      "distance": 0.010411870023205112
+    },
+    {
+      "step": 622,
+      "from": 2,
+      "to": 3,
+      "name": "lift",
+      "source": "geometry",
+      "distance": 0.006248062397215568
+    },
+    {
+      "step": 778,
+      "from": 3,
+      "to": 4,
+      "name": "move",
+      "source": "geometry",
+      "distance": 0.0247111721300014
+    },
+    {
+      "step": 942,
+      "from": 4,
+      "to": 5,
+      "name": "place",
+      "source": "geometry",
+      "distance": 0.024807502076506227
+    },
+    {
+      "step": 1043,
+      "from": 5,
+      "to": 6,
+      "name": "release",
+      "source": "geometry",
+      "distance": 0.03910599738421716
+    },
+    {
+      "step": 1136,
+      "from": 6,
+      "to": 7,
+      "name": "retreat",
+      "source": "advance_rnn",
+      "advance_prob": 0.6986087560653687
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Core project dependencies
+numpy
+torch
+tqdm
+mujoco
+mediapy
+robot_descriptions
+
+# Notebook execution
+jupyter
+ipykernel
