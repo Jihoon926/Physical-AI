@@ -1,4 +1,4 @@
-# Pick-and-Place Imitation Policy
+# Physical AI Pick-and-Place Policy
 
 This repository contains a compact reproduction package for a MuJoCo Franka pick-and-place imitation-learning policy.
 
@@ -12,9 +12,9 @@ The submitted policy is a hybrid controller:
 
 The included checkpoint succeeds on `sample_env/21.npz`:
 
-<video src="assets/demo_success_21.mp4" controls width="720"></video>
+[![Demo rollout](assets/demo_success_21.gif)](assets/demo_success_21.mp4)
 
-If GitHub does not render the embedded video, open [`assets/demo_success_21.mp4`](assets/demo_success_21.mp4).
+Click the preview to open the MP4: [`assets/demo_success_21.mp4`](assets/demo_success_21.mp4).
 
 ## Included Files
 
